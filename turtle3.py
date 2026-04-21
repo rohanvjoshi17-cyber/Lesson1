@@ -22,3 +22,4 @@ while True:
         t.pencolor('black')
         t.width(x / 100 + 7)
         t.forward(x)
+        t.right(59)
