@@ -9,7 +9,9 @@ set2 = {2,4,4,6}
 
 print("\nSet 1", set1)
 print("Set 2", set2)
+
 print("Difference")
 print(set1.difference(set2))
+
 print("Symmeteric Difference")
 print(set1.symmetric_difference(set2))
