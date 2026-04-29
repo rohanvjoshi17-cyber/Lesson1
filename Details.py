@@ -16,3 +16,5 @@ class Employee( Person ):
 
 a = Employee('Penguin', 20210401, 15000, "Intern")
 a.display()
+print(a.salary)
+print(a.post)
