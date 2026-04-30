@@ -1,10 +1,7 @@
-# Base class (Abstraction)
 class Polygon:
     def area(self):
-        pass   # to be overridden
+        pass  
 
-
-# Rectangle class (Inheritance)
 class Rectangle(Polygon):
     def __init__(self, length, width):
         self.length = length
@@ -13,8 +10,6 @@ class Rectangle(Polygon):
     def area(self):
         return self.length * self.width
 
-
-# Square class (Inheritance)
 class Square(Polygon):
     def __init__(self, side):
         self.side = side
@@ -22,8 +17,6 @@ class Square(Polygon):
     def area(self):
         return self.side * self.side
 
-
-# Triangle class (Inheritance)
 class Triangle(Polygon):
     def __init__(self, base, height):
         self.base = base
