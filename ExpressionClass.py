@@ -1,28 +1,19 @@
-# Base class
 class Expression:
     def calculate(self):
         return 0
 
-
-# Addition
 class Add(Expression):
     def calculate(self):
         return self.a + self.b
 
-
-# Subtraction
 class Subtract(Expression):
     def calculate(self):
         return self.a - self.b
 
-
-# Multiplication
 class Multiply(Expression):
     def calculate(self):
         return self.a * self.b
 
-
-# Division
 class Divide(Expression):
     def calculate(self):
         return self.a / self.b
