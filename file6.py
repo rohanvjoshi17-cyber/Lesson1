@@ -15,4 +15,3 @@ print("Reading multiple lines with loop...")
 for line in file:
     print(line)
 file.close()
-
