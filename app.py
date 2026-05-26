@@ -39,11 +39,11 @@ def topwin():
     label = Label(top, text="Enter total amount", bg ='green')
     entry = Entry(top)
     lbl = Label(top, text="Here are number of note for each denomination",
-bg='light grey')
+bg='light green')
     
-    l1 = Label(top, text="2000", bg ='light grey')
-    l2 = Label(top, text="500", bg ='light grey')
-    l3 = Label(top, text="100", bg ='light grey')
+    l1 = Label(top, text="2000", bg ='light green')
+    l2 = Label(top, text="500", bg ='light green')
+    l3 = Label(top, text="100", bg ='light green')
 
     t1 = Entry(top)
     t2 = Entry(top)
